@@ -1,6 +1,14 @@
 # strawberry_diagnosis
 
-A new Flutter project.
+A new Flutter project. I believe this is all the functionality nessicary for a functional disease detection app. The code incorperates the following:
+* Functional login page that can we set up with email address (Not SSO capable on this version)
+* Functional lambda image upload with either camera (un-tested) or from photos
+* Functional DynamoDB read
+
+Next Steps:
+* Better designed UI
+* SSO login abilities
+* Fix time stamp (I belive the null return is a problem in the lambda code)
 
 ## Getting Started
 
